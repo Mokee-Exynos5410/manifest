@@ -1,14 +1,14 @@
-# ÒªÈçºÎÎªSamsung S4±àÒëMokeeÄØ£¿£¨Chinese Version£©
-# 1.Ê×ÏÈ£¬ÎÒÃÇĞèÒª³õÊ¼µÄMokeeÔ´´úÂë¡£
-ÔÚÖÕ¶ËÖĞÊäÈëÒÔÏÂ´úÂë
+# è¦å¦‚ä½•ä¸ºSamsung S4ç¼–è¯‘Mokeeå‘¢ï¼Ÿï¼ˆChinese Versionï¼‰
+# 1.é¦–å…ˆï¼Œæˆ‘ä»¬éœ€è¦åˆå§‹çš„Mokeeæºä»£ç ã€‚
+åœ¨ç»ˆç«¯ä¸­è¾“å…¥ä»¥ä¸‹ä»£ç 
 repo init -u https://github.com/MoKee/android.git -b mkn-mr1
-ÄÍĞÄµÈ´ı´úÂëÏÂÔØÍê³É¡£
-½Ó×Å£ºrepo sync -j20 --force-sync
-Èç¹ûÄãÍøËÙ½Ï¿ì£¬Õâ×î¶à½«»á»¨·ÑÄã3-5¸öĞ¡Ê±.
+è€å¿ƒç­‰å¾…ä»£ç ä¸‹è½½å®Œæˆã€‚
+æ¥ç€ï¼šrepo sync -j20 --force-sync
+å¦‚æœä½ ç½‘é€Ÿè¾ƒå¿«ï¼Œè¿™æœ€å¤šå°†ä¼šèŠ±è´¹ä½ 3-5ä¸ªå°æ—¶.
 
-# 2.ÏÂÔØÉè±¸±ØĞèÎÄ¼ş¡£
-ÓÉÓÚÄ§È¤²»Ì«Ö§³Ölocal_manifest.xml£¬ËùÒÔÎÒ²¢²»ÍÆ¼öÊ¹ÓÃËü£¬µ«Èç¹ûÄãĞèÒª£¬ÎÒÈÔÈ»Ìá¹©local_manifest.xml¡£
-ÎÒÃÇĞèÒª£º
+# 2.ä¸‹è½½è®¾å¤‡å¿…éœ€æ–‡ä»¶ã€‚
+ç”±äºé­”è¶£ä¸å¤ªæ”¯æŒlocal_manifest.xmlï¼Œæ‰€ä»¥æˆ‘å¹¶ä¸æ¨èä½¿ç”¨å®ƒï¼Œä½†å¦‚æœä½ éœ€è¦ï¼Œæˆ‘ä»ç„¶æä¾›local_manifest.xmlã€‚
+æˆ‘ä»¬éœ€è¦ï¼š
 omnirom/android_bootable_recovery ==> bootable/recovery-twrp
 android_external_busybox ==> external/busybox
 android_external_stlport ==> external/stlport
@@ -27,30 +27,30 @@ android_hardware_samsung_slsi-cm_exynos ==> hardware/samsung_slsi-cm/exynos
 android_hardware_samsung_slsi-cm_exynos5 ==> hardware/samsung_slsi-cm/exynos5
 android_hardware_samsung_slsi-cm_exynos5410 ==> hardware/samsung_slsi-cm/exynos5410
 android_hardware_samsung_slsi-cm_openmax ==> hardware/samsung_slsi-cm/openmax
-ÒÔÉÏÊÇÎÒÃÇĞèÒªµÄÈ«²¿ÎÄ¼ş£¬½¨ÒéÕÒµ½ÕâĞ©Ô´Ê±ºòÊ¹ÓÃgit cloneÖ¸Áî½«Æäµ÷Õûµ½"==>"ºóµÄÂ·¾¶£¬×¢Òâ£¬ÏÂÔØµ½µÄÎÄ¼ş¼ĞÒª¸ÄÃûÎªÏàÓ¦µÄÃû³Æ£¡Èçandroid_hardware_samsung_slsi-cm_openmaxÒª¸ÄÎªopenmax¡£
-ÔÙ´ÎÌáĞÑ£¬ÎÒ·Ç³£²»½¨ÒéÊ¹ÓÃlocal_manifest!!!!!!!
-ÒÔÉÏµÄÎÄ¼ş»ù±¾ÄÜÔÚÎÒµÄÔ´Âë¿âÀïÕÒµ½£¬ÈôÕÒ²»µ½£¬ÇëËÑË÷MokeeµÄGithub¿â£¬µØÖ·£ºhttps://github.com/MoKee/android
+ä»¥ä¸Šæ˜¯æˆ‘ä»¬éœ€è¦çš„å…¨éƒ¨æ–‡ä»¶ï¼Œå»ºè®®æ‰¾åˆ°è¿™äº›æºæ—¶å€™ä½¿ç”¨git cloneæŒ‡ä»¤å°†å…¶è°ƒæ•´åˆ°"==>"åçš„è·¯å¾„ï¼Œæ³¨æ„ï¼Œä¸‹è½½åˆ°çš„æ–‡ä»¶å¤¹è¦æ”¹åä¸ºç›¸åº”çš„åç§°ï¼å¦‚android_hardware_samsung_slsi-cm_openmaxè¦æ”¹ä¸ºopenmaxã€‚
+å†æ¬¡æé†’ï¼Œæˆ‘éå¸¸ä¸å»ºè®®ä½¿ç”¨local_manifest!!!!!!!
+ä»¥ä¸Šçš„æ–‡ä»¶åŸºæœ¬èƒ½åœ¨æˆ‘çš„æºç åº“é‡Œæ‰¾åˆ°ï¼Œè‹¥æ‰¾ä¸åˆ°ï¼Œè¯·æœç´¢Mokeeçš„Githubåº“ï¼Œåœ°å€ï¼šhttps://github.com/MoKee/android
 
-# 3.Èç¹ûÎÄ¼ş´¦ÀíºÃÁË£¬ÎÒÃÇĞèÒª´ò²¹¶¡¡£
-µÚÒ»²½£¬¸ørecovery´ò²¹¶¡
+# 3.å¦‚æœæ–‡ä»¶å¤„ç†å¥½äº†ï¼Œæˆ‘ä»¬éœ€è¦æ‰“è¡¥ä¸ã€‚
+ç¬¬ä¸€æ­¥ï¼Œç»™recoveryæ‰“è¡¥ä¸
 $cd bootable/recovery-twrp
 $git fetch https://gerrit.omnirom.org/android_bootable_recovery refs/changes/96/22096/11 && git cherry-pick FETCH_HEAD
 cd ../..
-×¢Òâ£¬²»Òª°Ñ$ÊäÈëÖÕ¶Ë£¡
-Ò»¶¨ÒªÓÃomniµÄrecovery£¡·ñÔòÈİÒ×³ö´í£¡
-µÚ¶ş²½£¬¸øframework´ò²¹¶¡
+æ³¨æ„ï¼Œä¸è¦æŠŠ$è¾“å…¥ç»ˆç«¯ï¼
+ä¸€å®šè¦ç”¨omniçš„recoveryï¼å¦åˆ™å®¹æ˜“å‡ºé”™ï¼
+ç¬¬äºŒæ­¥ï¼Œç»™frameworkæ‰“è¡¥ä¸
 $cd frameworks/base
 $git am ../../device/samsung/exynos5410-common/patches/frameworks_base/0001-DO-NOT-MERGE-PATCH-Zygote-Stop-breaking-the-entire-s.patch
 $git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/45/169945/2 && git cherry-pick FETCH_HEAD
 $cd ../..
 
-ÒÔÉÏÎÒÃÇ´òÍêÈ«²¿µÄ²¹¶¡¡£MokeeµÄÔ´ÂëÒÑ¾­×ö³öÁËĞŞ¸´£¬ËùÒÔ²»ĞèÒªÔÙÈçLineage OSÒ»Ñù´òÆäËûµÄ²¹¶¡ÁË¡£
+ä»¥ä¸Šæˆ‘ä»¬æ‰“å®Œå…¨éƒ¨çš„è¡¥ä¸ã€‚Mokeeçš„æºç å·²ç»åšå‡ºäº†ä¿®å¤ï¼Œæ‰€ä»¥ä¸éœ€è¦å†å¦‚Lineage OSä¸€æ ·æ‰“å…¶ä»–çš„è¡¥ä¸äº†ã€‚
 
-# 4.±àÒë
-ÊäÈë$export WITH_TWRP=true
-È»ºó$. build/envsetup.sh
-×îºó$brunch mk_ja3gxx-userdebug ´Ë´¦½öÕë¶Ôja3gxx»úĞÍ£¬Èç¹ûÄãÒª±àÒëÆäËû»úĞÍ£¬ÄãĞèÒª½«ja3gxx¸ÄÎªÏàÓ¦µÄ´úºÅ¡£
-Èç¹ûÄãË³ÀûµÄ»°£¬1¸ö°ëĞ¡Ê±×óÓÒ¾Í»á±àÒëÍê³É¡£
-# ×£ÄãºÃÔË£¡
+# 4.ç¼–è¯‘
+è¾“å…¥$export WITH_TWRP=true
+ç„¶å$. build/envsetup.sh
+æœ€å$brunch mk_ja3gxx-userdebug æ­¤å¤„ä»…é’ˆå¯¹ja3gxxæœºå‹ï¼Œå¦‚æœä½ è¦ç¼–è¯‘å…¶ä»–æœºå‹ï¼Œä½ éœ€è¦å°†ja3gxxæ”¹ä¸ºç›¸åº”çš„ä»£å·ã€‚
+å¦‚æœä½ é¡ºåˆ©çš„è¯ï¼Œ1ä¸ªåŠå°æ—¶å·¦å³å°±ä¼šç¼–è¯‘å®Œæˆã€‚
+# ç¥ä½ å¥½è¿ ï¼
 
 # Build Guide (English Version)
