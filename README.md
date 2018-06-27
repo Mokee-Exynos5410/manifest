@@ -20,8 +20,7 @@
 - android_device_samsung_ja3gduosctc ==> device/samsung/ja3gduosctc
 - android_device_samsung_jalteskt ==> device/samsung/jalteskt
 - android_device_samsung_jaltelgt ==> device/samsung/jaltelgt
-- android_kernel_samsung_exynos5410 ==> 
-- kernel/samsung/exynos5410
+- android_kernel_samsung_exynos5410 ==> kernel/samsung/exynos5410
 - proprietary_vendor_samsung ==> vendor/samsung
 - android_hardware_samsung_slsi-cm_exynos ==> hardware/samsung_slsi-cm/exynos
 - android_hardware_samsung_slsi-cm_exynos5 ==> hardware/samsung_slsi-cm/exynos5
